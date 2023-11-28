@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import WalletView from '@/views/WalletView.vue';
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <WalletView />
 </template>
 
 <style scoped>
 * {
-  font-family: Roboto,serif;
+  font-family: Roboto, serif;
 }
 </style>
